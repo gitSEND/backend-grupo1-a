@@ -1,6 +1,8 @@
 package com.grupo1a.grupo1abackend.entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -26,6 +28,7 @@ public class Profesor {
   private String apellidoProfesor;
 
   @Column(name = "fecha_ingreso")
+  @DateTimeFormat(pattern = "yyyy-MM-dd")
   private Date fechaIngreso;
 
   @Column(name = "genero")
@@ -40,12 +43,21 @@ public class Profesor {
   @Column(name = "activo")
   private boolean activo;
 
+  @Column(name = "dni_profesor")
+  private String dniProfesor;
+
+  @Column(name = "clave_profesor", columnDefinition = "default 'miclave'")
+  private String clave_profesr;
+
   @OneToMany(mappedBy = "objProfesor", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<Asistencia> listAsistencia = new HashSet<Asistencia>();
 
   @OneToMany(mappedBy = "objProfesor", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<CursoProfesor> listCursoProfesor = new HashSet<CursoProfesor>();
 
   @OneToMany(mappedBy = "objProfesor", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<NotaCabecera> listNotaCabecera = new HashSet<NotaCabecera>();
 }

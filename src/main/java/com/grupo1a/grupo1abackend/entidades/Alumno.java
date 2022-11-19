@@ -1,9 +1,11 @@
 package com.grupo1a.grupo1abackend.entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -28,7 +30,8 @@ public class Alumno {
   @Column(name = "apellido_alumno")
   private String apellidoAlumno;
 
-  @Column(name = "fecha_alumno")
+  @Column(name = "fecha_ingreso")
+  @DateTimeFormat(pattern = "yyyy-MM-dd")
   private Date fechaIngreso;
 
   @Column(name = "genero")
@@ -43,12 +46,23 @@ public class Alumno {
   @Column(name = "activo")
   private boolean activo;
 
+  @Column(name = "dni_alumno")
+  private String dniAlumno;
+
+  @Column(name = "clave_alumno", columnDefinition = "default 'miclave'")
+  private String claveAlumno;
+
+
+
   @OneToMany(mappedBy = "objAlumno", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<AlumnoCurso> listAlumnoCurso = new HashSet<AlumnoCurso>();
 
   @OneToMany(mappedBy = "objAlumno", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<Asistencia> listAsistencia = new HashSet<Asistencia>();
 
   @OneToMany(mappedBy = "objAlumno", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<NotaCabecera> listNotaCabecera = new HashSet<NotaCabecera>();
 }

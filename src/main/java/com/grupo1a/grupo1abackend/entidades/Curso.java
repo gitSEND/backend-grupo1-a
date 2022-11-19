@@ -1,5 +1,6 @@
 package com.grupo1a.grupo1abackend.entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -26,14 +27,18 @@ public class Curso {
   private boolean activo;
 
   @OneToMany(mappedBy = "objCurso", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<AlumnoCurso> listAlumnoCurso = new HashSet<AlumnoCurso>();
 
   @OneToMany(mappedBy = "objCurso", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<Asistencia> listAsistencia = new HashSet<Asistencia>();
 
   @OneToMany(mappedBy = "objCurso", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<CursoProfesor> listCursoProfesor = new HashSet<CursoProfesor>();
 
   @OneToMany(mappedBy = "objCurso", cascade = CascadeType.ALL, orphanRemoval = true)
+  @JsonIgnore
   Set<NotaCabecera> listNotaCabecera = new HashSet<NotaCabecera>();
 }
