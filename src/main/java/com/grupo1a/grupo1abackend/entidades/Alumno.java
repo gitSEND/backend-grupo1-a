@@ -49,10 +49,8 @@ public class Alumno {
   @Column(name = "dni_alumno")
   private String dniAlumno;
 
-  @Column(name = "clave_alumno", columnDefinition = "default 'miclave'")
-  private String claveAlumno;
-
-
+  @Column(name = "clave_alumno")
+  private String claveAlumno = "miclave";
 
   @OneToMany(mappedBy = "objAlumno", cascade = CascadeType.ALL, orphanRemoval = true)
   @JsonIgnore
