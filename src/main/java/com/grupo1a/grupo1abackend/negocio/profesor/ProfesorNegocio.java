@@ -1,4 +1,4 @@
-package com.grupo1a.grupo1abackend.negocio;
+package com.grupo1a.grupo1abackend.negocio.profesor;
 
 import com.grupo1a.grupo1abackend.entidades.Profesor;
 import com.grupo1a.grupo1abackend.repositorio.IProfesorRepositorio;
@@ -31,5 +31,11 @@ public class ProfesorNegocio implements IProfesorNegocio {
   @Override
   public Profesor actualizar(Profesor profesor) {
     return repositorio.save(profesor);
+  }
+
+  @Override
+  public boolean delete(Long profesorId) {
+    repositorio.deleteById(profesorId);
+    return true;
   }
 }

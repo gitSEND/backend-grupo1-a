@@ -51,7 +51,7 @@ public class Profesor {
 
   @OneToMany(mappedBy = "objProfesor", cascade = CascadeType.ALL, orphanRemoval = true)
   @JsonIgnore
-  Set<Asistencia> listAsistencia = new HashSet<Asistencia>();
+  Set<AsistenciaDetalle> listAsistenciaDetalle = new HashSet<AsistenciaDetalle>();
 
   @OneToMany(mappedBy = "objProfesor", cascade = CascadeType.ALL, orphanRemoval = true)
   @JsonIgnore

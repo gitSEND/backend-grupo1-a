@@ -16,7 +16,6 @@ import java.util.Set;
 public class Curso {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-
   @Column(name = "id_curso")
   private Long idCurso;
 
@@ -32,7 +31,7 @@ public class Curso {
 
   @OneToMany(mappedBy = "objCurso", cascade = CascadeType.ALL, orphanRemoval = true)
   @JsonIgnore
-  Set<Asistencia> listAsistencia = new HashSet<Asistencia>();
+  Set<AsistenciaDetalle> listAsistenciaDetalle = new HashSet<AsistenciaDetalle>();
 
   @OneToMany(mappedBy = "objCurso", cascade = CascadeType.ALL, orphanRemoval = true)
   @JsonIgnore

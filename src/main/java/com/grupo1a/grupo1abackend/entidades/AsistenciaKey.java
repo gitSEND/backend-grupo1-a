@@ -17,12 +17,17 @@ import java.io.Serializable;
 @Embeddable
 public class AsistenciaKey implements Serializable {
 
-    @Column(name = "id_alumno")
-    private Long idAlumno;
+  @Column(name = "id_alumno")
+  private Long idAlumno;
 
-    @Column(name = "id_profesor")
-    private Long idProfesor;
+  @Column(name = "id_profesor")
+  private Long idProfesor;
 
-    @Column(name = "id_curso")
-    private Long idCurso;
+  @Column(name = "id_curso")
+  private Long idCurso;
+
+  @Column(name = "id_asistencia")
+  private Long idAsistencia;
+
+
 }

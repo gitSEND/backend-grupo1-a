@@ -1,4 +1,4 @@
-package com.grupo1a.grupo1abackend.negocio;
+package com.grupo1a.grupo1abackend.negocio.profesor;
 
 import com.grupo1a.grupo1abackend.entidades.Profesor;
 
@@ -9,5 +9,7 @@ public interface IProfesorNegocio {
   public Profesor buscar(Long profesorId) throws Exception;
   public List<Profesor> listar();
   public Profesor actualizar(Profesor profesor);
+
+  public boolean delete(Long profesorId);
 
 }
