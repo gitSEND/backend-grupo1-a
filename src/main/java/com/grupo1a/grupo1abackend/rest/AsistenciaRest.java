@@ -5,7 +5,7 @@ import com.grupo1a.grupo1abackend.negocio.asistencia.AsistenciaNegocio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
+import java.text.ParseException;
 import java.util.List;
 
 @RestController
@@ -17,12 +17,12 @@ public class AsistenciaRest {
   private AsistenciaNegocio servicio;
 
   @GetMapping("/{fecha}")
-  public List<Asistencia> listarAsistenciaPorFecha(@PathVariable Date fecha) {
+  public List<Asistencia> listarAsistenciaPorFecha(@PathVariable String fecha) throws ParseException {
     return servicio.listarAsistenciaPorFecha(fecha);
   }
 
   @PostMapping
-  public List<Asistencia> registrarAsistencia(@RequestBody List<Asistencia> listaAsistencia) {
-    return servicio.registrarAsistencia(listaAsistencia);
+  public Asistencia registrarAsistencia(@RequestBody Asistencia asistencia) {
+    return servicio.registrarAsistencia(asistencia);
   }
 }

@@ -4,8 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -24,7 +26,7 @@ public class Asistencia {
   private Long idAsistencia;
 
   @Column(name = "fecha")
-  private Date fecha;
+  private String fecha;
 
   @OneToMany(mappedBy = "objAsistencia", cascade = CascadeType.ALL, orphanRemoval = true)
   Set<AsistenciaDetalle> listAsistenciaDetalle = new HashSet<AsistenciaDetalle>();

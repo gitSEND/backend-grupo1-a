@@ -39,5 +39,5 @@ public class Curso {
 
   @OneToMany(mappedBy = "objCurso", cascade = CascadeType.ALL, orphanRemoval = true)
   @JsonIgnore
-  Set<NotaCabecera> listNotaCabecera = new HashSet<NotaCabecera>();
+  Set<NotaDetalle> listNotaDetalle = new HashSet<NotaDetalle>();
 }

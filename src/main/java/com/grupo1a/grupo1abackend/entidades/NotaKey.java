@@ -16,12 +16,15 @@ import java.io.Serializable;
 @Getter
 @Embeddable
 public class NotaKey implements Serializable {
-    @Column(name = "id_alumno")
-    private Long idAlumno;
+  @Column(name = "id_alumno")
+  private Long idAlumno;
 
-    @Column(name = "id_profesor")
-    private Long idProfesor;
+  @Column(name = "id_profesor")
+  private Long idProfesor;
 
-    @Column(name = "id_curso")
-    private Long idCurso;
+  @Column(name = "id_curso")
+  private Long idCurso;
+
+  @Column(name = "id_nota")
+  private Long idNota;
 }

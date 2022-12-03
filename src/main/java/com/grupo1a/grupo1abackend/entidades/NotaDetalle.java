@@ -20,18 +20,45 @@ public class NotaDetalle {
   @EmbeddedId
   private NotaKey notaDetalleId;
 
-  @Column(name = "tipo_nota")
-  private String tipoNota;
+  @Column(name = "nota_partipacion")
+  private int notaParticipacion;
 
-  @Column(name = "nota")
-  private int nota;
+  @Column(name = "nota_tarea_1")
+  private int notaTareaOne;
+
+  @Column(name = "nota_tarea_2")
+  private int notaTareatwo;
+
+  @Column(name = "nota_parcial_1")
+  private int notaParcialOne;
+
+  @Column(name = "nota_parcial_2")
+  private int notaParcialTwo;
+
+  @Column(name = "nota_examen_final")
+  private int notaExamenFinal;
 
   @ManyToOne(fetch = FetchType.LAZY)
-  @JoinColumns({
-    @JoinColumn(name = "id_alumno", insertable = false, updatable = false),
-    @JoinColumn(name = "id_profesor", insertable = false, updatable = false),
-    @JoinColumn(name = "id_curso", insertable = false, updatable = false)
-  })
+  @MapsId("idNota")
+  @JoinColumn(name = "id_nota")
   @JsonIgnore
-  private NotaCabecera notaCabeceras;
+  private NotaCabecera objNotaCabe;
+
+  @ManyToOne(fetch = FetchType.LAZY)
+  @MapsId("idAlumno")
+  @JoinColumn(name = "id_alumno")
+  @JsonIgnore
+  private Alumno objAlumno;
+
+  @ManyToOne(fetch = FetchType.LAZY)
+  @MapsId("idCurso")
+  @JoinColumn(name = "id_curso")
+  @JsonIgnore
+  private Curso objCurso;
+
+  @ManyToOne(fetch = FetchType.LAZY)
+  @MapsId("idProfesor")
+  @JoinColumn(name = "id_profesor")
+  @JsonIgnore
+  private Profesor objProfesor;
 }

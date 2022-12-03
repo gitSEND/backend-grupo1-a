@@ -21,32 +21,17 @@ import java.util.Set;
 @Table(name = "NotaCabecera")
 public class NotaCabecera {
 
-  @EmbeddedId
-  private NotaKey idNotaCabecera;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "id_nota")
+  private Long idNota;
 
-  @Column(name = "nota_final")
-  private Integer notaFinal;
+  @Column(name = "promedio_obtenido")
+  private Integer promedioObtenido;
 
-  @ManyToOne(fetch = FetchType.LAZY)
-  @MapsId("idAlumno")
-  @JoinColumn(name = "id_alumno")
-  @JsonIgnore
-  private Alumno objAlumno;
 
-  @ManyToOne(fetch = FetchType.LAZY)
-  @MapsId("idCurso")
-  @JoinColumn(name = "id_curso")
-  @JsonIgnore
-  private Curso objCurso;
-
-  @ManyToOne(fetch = FetchType.LAZY)
-  @MapsId("idProfesor")
-  @JoinColumn(name = "id_profesor")
-  @JsonIgnore
-  private Profesor objProfesor;
-
-//  @OneToMany(mappedBy = "notaCabeceras", cascade = CascadeType.ALL, orphanRemoval = true)
-//  Set<NotaCabecera> listNotaCabecera = new HashSet<NotaCabecera>();
+  @OneToMany(mappedBy = "objNotaCabe", cascade = CascadeType.ALL, orphanRemoval = true)
+  Set<NotaDetalle> listNotaDetalle = new HashSet<NotaDetalle>();
 
 
 }

@@ -22,25 +22,25 @@ public class AsistenciaDetalle {
   private boolean presente;
 
 
-  @ManyToOne(fetch = FetchType.LAZY)
+  @ManyToOne(fetch = FetchType.EAGER)
   @MapsId("idAsistencia")
   @JoinColumn(name = "id_asistencia")
   @JsonIgnore
   private Asistencia objAsistencia;
 
-  @ManyToOne(fetch = FetchType.LAZY)
+  @ManyToOne(fetch = FetchType.EAGER)
   @MapsId("idAlumno")
   @JoinColumn(name = "id_alumno")
   @JsonIgnore
   private Alumno objAlumno;
 
-  @ManyToOne(fetch = FetchType.LAZY)
+  @ManyToOne(fetch = FetchType.EAGER)
   @MapsId("idCurso")
   @JoinColumn(name = "id_curso")
   @JsonIgnore
   private Curso objCurso;
 
-  @ManyToOne(fetch = FetchType.LAZY)
+  @ManyToOne(fetch = FetchType.EAGER)
   @MapsId("idProfesor")
   @JoinColumn(name = "id_profesor")
   @JsonIgnore
