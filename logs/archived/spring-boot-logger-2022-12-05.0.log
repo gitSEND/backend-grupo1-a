@@ -1,0 +1,97 @@
+2022-12-05 00:48:01,778 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m11s903ms).
+2022-12-05 01:51:52,542 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m50s763ms).
+2022-12-05 02:57:41,760 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m49s218ms).
+2022-12-05 03:16:00,759 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m19s).
+2022-12-05 03:21:13,818 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s58ms).
+2022-12-05 03:43:29,673 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m45s831ms).
+2022-12-05 04:47:52,433 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m22s760ms).
+2022-12-05 05:55:35,131 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m42s698ms).
+2022-12-05 06:53:08,816 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m33s685ms).
+2022-12-05 07:17:39,838 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m31s21ms).
+2022-12-05 07:59:45,871 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m35s757ms).
+2022-12-05 08:21:26,293 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m10s268ms).
+2022-12-05 11:55:28,634 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s860ms), soft-evicting connections from pool.
+2022-12-05 12:46:12,033 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s19ms).
+2022-12-05 12:49:58,329 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m46s296ms).
+2022-12-05 12:56:45,728 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s353ms).
+2022-12-05 13:08:46,010 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m16s364ms).
+2022-12-05 13:20:21,912 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m5s885ms).
+2022-12-05 13:31:34,905 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s).
+2022-12-05 14:20:25,220 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48m50s316ms).
+2022-12-05 14:49:38,945 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2022-12-05 16:26:39,281 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s74ms).
+2022-12-05 16:37:05,492 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m26s211ms).
+2022-12-05 16:48:01,134 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m55s576ms).
+2022-12-05 18:18:52,224 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m20s412ms).
+2022-12-05 18:29:05,319 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s54ms).
+2022-12-05 18:38:55,463 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m50s144ms).
+2022-12-05 19:35:06,277 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m40s372ms).
+2022-12-05 19:41:43,631 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s300ms).
+2022-12-05 20:00:45,931 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 20:01:08,458 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó a listar todos los profesores
+2022-12-05 20:07:18,111 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-5] Se llamó a listar todos los profesores
+2022-12-05 20:07:49,301 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 20:08:30,443 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó a listar todos los profesores
+2022-12-05 20:10:42,596 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 20:10:46,238 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-2] Se llamó al método de registrar profesor
+2022-12-05 20:10:46,300 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-5] Se llamó a listar todos los profesores
+2022-12-05 20:10:54,490 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó al método de registrar profesor
+2022-12-05 20:10:54,524 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 20:11:16,249 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 20:11:19,014 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó a listar todos los profesores
+2022-12-05 20:11:25,216 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó al método de registrar profesor
+2022-12-05 20:11:25,260 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 20:11:55,080 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 20:14:48,919 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó a listar todos los profesores
+2022-12-05 20:14:52,338 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 22:12:53,552 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó a listar todos los profesores
+2022-12-05 22:20:30,858 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "El ID buscado no existe"; nested exception is java.lang.Exception: No se encontró datos con ese ID]
+2022-12-05 22:20:58,660 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "El ID buscado no existe"; nested exception is java.lang.Exception: No se encontró datos con ese ID]
+2022-12-05 23:18:16,605 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 23:18:28,258 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó a listar todos los profesores
+2022-12-05 23:18:30,738 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó a listar todos los profesores
+2022-12-05 23:20:52,564 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-5] Se llamó a listar todos los profesores
+2022-12-05 23:21:17,865 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 23:21:20,132 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:21:55,476 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-2] Se llamó a listar todos los profesores
+2022-12-05 23:22:02,101 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 23:22:06,136 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 23:22:52,461 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:23:36,788 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó a listar todos los profesores
+2022-12-05 23:23:50,762 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 23:23:55,829 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:24:02,322 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 23:24:10,418 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó a listar todos los profesores
+2022-12-05 23:24:20,514 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-1] Se llamó a listar todos los profesores
+2022-12-05 23:24:28,119 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó a listar todos los profesores
+2022-12-05 23:24:33,783 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-2] Se llamó a listar todos los profesores
+2022-12-05 23:25:40,710 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-9] Se llamó a listar todos los profesores
+2022-12-05 23:26:01,305 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 23:42:51,723 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 23:43:56,922 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:44:09,686 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-4] Se llamó a listar todos los profesores
+2022-12-05 23:44:20,532 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 23:44:32,751 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:44:41,950 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó a listar todos los profesores
+2022-12-05 23:45:06,940 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 23:45:25,679 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:49:58,319 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 23:51:50,543 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-5] Se llamó a listar todos los profesores
+2022-12-05 23:51:54,041 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 23:52:35,188 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 23:53:05,967 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:53:26,320 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 23:54:54,976 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-2] Se llamó a listar todos los profesores
+2022-12-05 23:55:14,123 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 23:55:25,232 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 23:55:54,254 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-1] Se llamó a listar todos los profesores
+2022-12-05 23:56:09,979 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó a listar todos los profesores
+2022-12-05 23:56:41,814 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-9] Se llamó a listar todos los profesores
+2022-12-05 23:56:48,144 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-3] Se llamó a listar todos los profesores
+2022-12-05 23:56:58,946 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-5] Se llamó a listar todos los profesores
+2022-12-05 23:57:06,429 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 23:57:19,521 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-6] Se llamó a listar todos los profesores
+2022-12-05 23:57:22,244 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-10] Se llamó a listar todos los profesores
+2022-12-05 23:57:29,011 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
+2022-12-05 23:59:09,124 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-7] Se llamó a listar todos los profesores
+2022-12-05 23:59:32,650 INFO com.grupo1a.grupo1abackend.rest.ProfesorRest [http-nio-8080-exec-8] Se llamó a listar todos los profesores
